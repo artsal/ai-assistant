@@ -69,11 +69,13 @@ Encapsulates business logic and orchestration.
 
 ---
 
-## ⚙️ Getting Started
+## ⚙️ How It Works
 
-### 1. Clone the repository
+1. User submits a query via the chat endpoint  
+2. System retrieves relevant document context  
+3. Context is used to generate a response  
+4. Response is returned to the user  
 
-```bash
-git clone https://github.com/artsal/ai-assistant.git
-cd ai-assistant
-```
+This follows a simplified Retrieval-Augmented Generation (RAG) workflow.
+
+---
