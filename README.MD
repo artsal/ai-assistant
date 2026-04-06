@@ -4,6 +4,12 @@
 
 ---
 
+## 🚧 Project Status
+
+This is an actively evolving project focused on learning and implementing real-world AI engineering patterns.
+
+---
+
 ## 📌 Overview
 
 AI Assistant is a backend application that enables querying and extracting insights from documents using retrieval-based techniques.
