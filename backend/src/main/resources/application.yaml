@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ai-assistant-backend
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        options:
+          model: mistral
+          num-predict: 200
